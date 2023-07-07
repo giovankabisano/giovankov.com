@@ -8,24 +8,27 @@ const projects = [
   {
     name: "The Managers Path",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
+      "From mentoring interns to working with senior staff, you’ll get actionable advice for approaching various obstacles in your path.",
+    image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1484107737i/33369254.jpg",
     link: "https://www.oreilly.com/library/view/the-managers-path/9781491973882/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Read This Before Our Next Meeting",
+    description: "Accessible guide on making meetings more effective, efficient, and worthy of attending. You know, why bother wasting your time.",
+    image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328349725i/11994353.jpg",
+    link: "https://www.goodreads.com/book/show/11994353-read-this-before-our-next-meeting",
   },
   {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "An Elegant Puzzle: Systems of Engineering Management",
+    description: "A human-centric guide to solving complex problems in engineering management, from sizing teams to handling technical debt.",
+    image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556221385i/45303387.jpg",
+    link: "https://www.goodreads.com/en/book/show/45303387",
+  },
+  {
+    name: "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
+    description: "From the time we learn to speak, we’re told that if you don’t have anything nice to say, don’t say anything at all. When you become a manager, it’s your job to say it--and your obligation",
+    image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482838407i/29939161.jpg",
+    link: "https://www.goodreads.com/en/book/show/29939161",
   },
 ]
 
@@ -34,28 +37,28 @@ const BooksSection = () => {
     <section id="books">
       <div className="pb-12 md:pb-48">
         <h1 className="my-10 text-center font-bold text-4xl">
-          Books
+          Books I&#39;ve Read
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
-        <div className="flex flex-col space-y-28">
+        <div className="grid grid-cols-3 gap-8">
           {projects.map((project, idx) => {
             return (
               <div key={idx}>
                 <SlideUp offset="-300px 0px -300px 0px">
-                  <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                    <div className=" md:w-1/2">
+                  <div className="animate-slideUpCubiBezier animation-delay-2">
+                    <div>
                       <Link href={project.link}>
                         <Image
                           src={project.image}
                           alt=""
-                          width={1000}
-                          height={1000}
+                          width={250}
+                          height={250}
                           className="rounded-xl shadow-xl hover:opacity-70"
                         />
                       </Link>
                     </div>
-                    <div className="mt-8 md:w-1/2">
+                    <div className="mt-8">
                       <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                       <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                         {project.description}

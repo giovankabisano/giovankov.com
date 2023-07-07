@@ -6,27 +6,11 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
-  },
-  {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "Galaxy Buds Client for Windows & Ubuntu",
+    description: "Collaborated to an open source project to create a powerfull sound management software for your Samsung Galaxy buds.",
+    image: "https://raw.githubusercontent.com/ThePBone/GalaxyBudsClient/master/screenshots/screencap.gif",
+    github: "https://github.com/ThePBone/GalaxyBudsClient",
+    link: "https://flathub.org/apps/me.timschneeberger.GalaxyBudsClient",
   },
 ]
 

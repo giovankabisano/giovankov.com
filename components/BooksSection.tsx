@@ -64,17 +64,6 @@ const BooksSection = () => {
                         {project.description}
                       </p>
                       <div className="flex flex-row align-bottom space-x-4">
-                        {
-                          project.github && (
-                            <Link href={project.github} target="_blank">
-                              <BsGithub
-                                size={30}
-                                className="hover:-translate-y-1 transition-transform cursor-pointer"
-                              />
-                            </Link>
-
-                          )
-                        }
                         <Link href={project.link} target="_blank">
                           <BsArrowUpRightSquare
                             size={30}

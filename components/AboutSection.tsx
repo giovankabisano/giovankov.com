@@ -29,11 +29,11 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Ivan and I am a software engineer with the expertise in Android Development. I am familiar with React also tho, so I can do some web programming as well.
+              Hi, I&#39;m Giovanka but people called me Ivan for short. I have the expertise in Android Development and I am familiar with React also, so I can do some web programming as well.
             </p>
             <br />
             <p>
-              I worked at various top-tier company in Indonesia since 2019 after 
+              I worked at various top-tier companies in Indonesia since 2019 after 
               I graduated from Brawijaya University with a CS in Computer Engineering and have been working in the
               field ever since.
             </p>

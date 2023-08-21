@@ -30,6 +30,9 @@ const HeroSection = () => {
           <p className="text-lg mt-2 mb-10 md:text-2xl">
             I work with <span className="font-semibold text-teal-600">Kotlin (Android)</span> and <span className="font-semibold text-teal-600">React Ecosystem (React JS & React Native)</span>.
           </p>
+          <p className="text-lg mt-2 mb-10 md:text-2xl">
+            Currently working in <b>Kargo Technologies</b> 🚛 🚀 🌕 as <span className="font-semibold text-teal-600">Technical Lead</span>
+          </p>
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"

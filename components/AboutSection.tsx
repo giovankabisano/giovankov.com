@@ -12,6 +12,7 @@ const skills = [
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "TDD" },
+  { skill: "Google Analytics" },
 ]
 
 const AboutSection = () => {

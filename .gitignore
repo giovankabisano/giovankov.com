@@ -29,6 +29,10 @@ yarn-error.log*
 .env
 .env*.local
 
+# next-sitemap
+robots.txt
+sitemap.xml
+
 # vercel
 .vercel
 

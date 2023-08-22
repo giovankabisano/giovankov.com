@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://giovanka.vercel.app/',
+  siteUrl: process.env.SITE_URL,
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [{ userAgent: '*', allow: '/' }],

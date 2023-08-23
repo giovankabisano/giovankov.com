@@ -30,7 +30,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, I&#39;m Giovanka but people called me Ivan for short. I have the expertise in Android Development and I am familiar with React also, so I can do some web programming as well.
+              Hi, I&#39;m <b>Giovanka Bisano</b> but people called me <b>Ivan</b> for short. <br/>I have the expertise in Android Development and I am familiar with React also, so I can do some web programming as well.
             </p>
             <br />
             <p>

@@ -8,7 +8,11 @@ export const metadata: Metadata = {
   title: 'Giovanka Bisano',
   description: 'Software Engineer, Frontend & Android!',
   icons: {
-    icon: '/favicon.ico'
+    icon: {
+      url: '/favicon.ico',
+      rel: 'icon',
+      type: 'image/x-icon'
+    }
   },
   applicationName: "Giovanka's Portfolio",
   authors: { name: "Giovanka Bisano Putra", url: "https://www.linkedin.com/in/giovankabisano/" },

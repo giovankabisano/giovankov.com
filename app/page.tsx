@@ -5,8 +5,8 @@ import BooksSection from "@/components/BooksSection"
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Giovanka Bisano',
-  description: 'Software Engineer, Frontend & Android!',
+  title: 'Giovanka Bisano Putra',
+  description: 'Portfolio | Software Engineer, Frontend & Android! | Kotlin, React Native, React JS, Next JS, Go',
   icons: {
     icon: {
       url: '/favicon.ico',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   generator: "Next.js",
   keywords: ["giovanka", "android", "frontend", "bisano", "google analytics", "firebase"],
   openGraph: {
-    title: "Giovanka Bisano",
-    description: 'Software Engineer, Frontend & Android!'
+    title: "Giovanka Bisano Putra",
+    description: 'Portfolio | Software Engineer, Frontend & Android! | Kotlin, React Native, React JS, Next JS, Go'
   }
 };
 

@@ -43,9 +43,9 @@ const AboutSection = () => {
               Managerial path is the career ladder that I want to achieve and people that have worked with me said that I am suitable for that 😆
             </p>
             <br />
-            <p>
+            {/* <p>
               I love to talk about business and peoples. <br></br>Fun fact, I have my own coffe shop but I <b>don&#39;t</b> like coffee.
-            </p>
+            </p> */}
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>

@@ -61,13 +61,13 @@ const HeroSection = () => {
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
       </div>
-      <GB className={clsx(
+      {/* <GB className={clsx(
         'absolute bottom-0 right-6',
         'translate-y-[37%] transform-gpu',
         'w-[calc(100%-3rem)] md:w-[600px] 2xl:w-[900px]',
         'z-[-1] opacity-70 dark:opacity-30'
       )}
-      />
+      /> */}
     </section>
   )
 }

@@ -6,7 +6,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Giovanka Bisano Putra',
-  description: 'Portfolio | Software Engineer, Frontend & Android! | Kotlin, React Native, React JS, Next JS, Go',
+  description: 'Giovanka Bisano Portfolio | Software Engineer, Frontend & Android! | Kotlin, React Native, React JS, Next JS, Go',
   icons: {
     icon: {
       url: '/favicon.ico',

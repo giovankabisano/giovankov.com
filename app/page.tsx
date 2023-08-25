@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["giovanka", "android", "frontend", "bisano", "google analytics", "firebase"],
   openGraph: {
     title: "Giovanka Bisano Putra",
-    description: 'Portfolio | Software Engineer, Frontend & Android! | Kotlin, React Native, React JS, Next JS, Go'
+    description: 'Giovanka Bisano Portfolio | Software Engineer, Frontend & Android! | Kotlin, React Native, React JS, Next JS, Go'
   }
 };
 

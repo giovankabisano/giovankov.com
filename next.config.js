@@ -4,6 +4,6 @@ module.exports = {
     appDir: true,
   },
   images: {
-    domains: ['images-na.ssl-images-amazon.com', 'raw.githubusercontent.com'],
+    domains: ['images-na.ssl-images-amazon.com', 'raw.githubusercontent.com', 'diskominfo.natunakab.go.id'],
   },
 }

@@ -2,7 +2,8 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsGithub, BsArrowUpRightSquare, BsAndroid, BsAndroid2, BsApple } from "react-icons/bs"
+import parse from 'html-react-parser';
 
 const projects = [
   {
@@ -11,6 +12,14 @@ const projects = [
     image: "https://raw.githubusercontent.com/ThePBone/GalaxyBudsClient/master/screenshots/screencap.gif",
     github: "https://github.com/ThePBone/GalaxyBudsClient",
     link: "https://flathub.org/apps/me.timschneeberger.GalaxyBudsClient",
+  },
+  {
+    name: "Peduli Lindungi",
+    description: `The Indonesia COVID-19 tracker app, officially endorsed by the government under the Ministry of Health. <br/> <br/>My buddies and I conceptualized an idea, crafted a prototype, and presented it to one of Indonesia's ministers. This presentation led to the subsequent transfer of the prototype to the government's ownership.`,
+    image: "https://diskominfo.natunakab.go.id/wp-content/uploads/2021/09/20210910-Aplikasi-PeduliLindungi-1.jpeg",
+    link: "https://satusehat.kemkes.go.id/dashboard/",
+    android: "https://play.google.com/store/apps/details?id=com.telkom.tracencare",
+    ios: "https://apps.apple.com/id/app/satusehat-mobile/id1504600374"
   },
 ]
 
@@ -43,15 +52,40 @@ const ProjectsSection = () => {
                     <div className="mt-8 md:w-1/2">
                       <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                       <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
-                        {project.description}
+                        {parse(project.description)}
                       </p>
                       <div className="flex flex-row align-bottom space-x-4">
-                        <Link href={project.github} target="_blank">
-                          <BsGithub
-                            size={30}
-                            className="hover:-translate-y-1 transition-transform cursor-pointer"
-                          />
-                        </Link>
+                        {
+                          project.github != null ? (
+                            <Link href={project.github} target="_blank">
+                              <BsGithub
+                                size={30}
+                                className="hover:-translate-y-1 transition-transform cursor-pointer"
+                              />
+                            </Link>
+                          ) : null
+                        }
+                        {
+                          project.android != null ? (
+                            <Link href={project.android} target="_blank">
+                              <BsAndroid2
+                                size={30}
+                                className="hover:-translate-y-1 transition-transform cursor-pointer"
+                              />
+                            </Link>
+                          ) : null
+                        }
+                        {
+                          project.ios != null ? (
+                            <Link href={project.ios} target="_blank">
+                              <BsApple
+                                size={30}
+                                className="hover:-translate-y-1 transition-transform cursor-pointer"
+                              />
+                            </Link>
+                          ) : null
+                        }
+                        
                         <Link href={project.link} target="_blank">
                           <BsArrowUpRightSquare
                             size={30}

@@ -30,9 +30,9 @@ const HeroSection = () => {
           <p className="text-lg mt-2 mb-5 md:text-2xl">
             I work with <span className="font-semibold text-teal-600">Kotlin (Android)</span> and <span className="font-semibold text-teal-600">React Ecosystem (React JS & React Native)</span>.
           </p>
-          {/* <p className="text-lg mt-2 mb-5 md:text-2xl">
-            Initiator of <span className="font-semibold text-[#4c99d3]">Peduli Lindungi</span>, recently become <span className="font-semibold text-[#4c99d3]">Satu Sehat</span>.
-          </p> */}
+          <p className="text-lg mt-2 mb-5 md:text-2xl">
+            Initiator of <span className="text-[#4c99d3] font-semibold">Peduli Lindungi</span>, recently become <a href="#" className="text-[#4c99d3] font-semibold hover:underline">Satu Sehat</a>.
+          </p>
           <p className="text-lg mt-2 mb-10 md:text-2xl">
             Currently working in <b>Kargo Technologies</b> 🚛 🚀 🌕 as <span className="font-semibold text-teal-600">Technical Lead</span>
           </p>

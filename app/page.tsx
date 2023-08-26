@@ -1,7 +1,7 @@
-import AboutSection from "@/components/AboutSection"
-import HeroSection from "@/components/HeroSection"
-import ProjectsSection from "@/components/ProjectsSection"
-import BooksSection from "@/components/BooksSection"
+import AboutSection from "@/app/_components/AboutSection"
+import HeroSection from "@/app/_components/HeroSection"
+import ProjectsSection from "@/app/_components/ProjectsSection"
+import BooksSection from "@/app/_components/BooksSection"
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {

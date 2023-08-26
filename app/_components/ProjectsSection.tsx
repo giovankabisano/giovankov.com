@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import SlideUp from "./SlideUp"
+import SlideUp from "../../components/SlideUp"
 import { BsGithub, BsArrowUpRightSquare, BsAndroid, BsAndroid2, BsApple } from "react-icons/bs"
 import parse from 'html-react-parser';
 

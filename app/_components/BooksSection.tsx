@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import SlideUp from "./SlideUp"
+import SlideUp from "../../components/SlideUp"
 import { BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [

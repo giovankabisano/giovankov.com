@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Link as LinkScroll} from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
 import clsx from "clsx"
-import GB from './assets/GB'
+import GB from '../../components/assets/GB'
 import Link from "next/link"
 
 const HeroSection = () => {

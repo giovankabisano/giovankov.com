@@ -1,10 +1,11 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link } from "react-scroll/modules"
+import { Link as LinkScroll} from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
 import clsx from "clsx"
 import GB from './assets/GB'
+import Link from "next/link"
 
 const HeroSection = () => {
   return (
@@ -36,7 +37,7 @@ const HeroSection = () => {
           <p className="text-lg mt-2 mb-10 md:text-2xl">
             Currently working in <b>Kargo Technologies</b> 🚛 🚀 🌕 as <span className="font-semibold text-teal-600">Technical Lead</span>
           </p>
-          <Link
+          <LinkScroll
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
@@ -46,11 +47,11 @@ const HeroSection = () => {
             duration={500}
           >
             Projects
-          </Link>
+          </LinkScroll>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
-        <Link
+        <LinkScroll
           to="about"
           activeClass="active"
           spy={true}
@@ -59,7 +60,7 @@ const HeroSection = () => {
           duration={500}
         >
           <HiArrowDown size={35} className="animate-bounce" />
-        </Link>
+        </LinkScroll>
       </div>
       {/* <GB className={clsx(
         'absolute bottom-0 right-6',

@@ -10,7 +10,7 @@ const projects = [
     description:
       "From mentoring interns to working with senior staff, you’ll get actionable advice for approaching various obstacles in your path.",
     image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1484107737i/33369254.jpg",
-    link: "https://www.oreilly.com/library/view/the-managers-path/9781491973882/",
+    link: "https://awesome-emu-e2c.notion.site/The-Managers-Path-5ba5aaa374f14f5f8dad70459d36c786",
   },
   {
     name: "Read This Before Our Next Meeting",
@@ -48,7 +48,7 @@ const BooksSection = () => {
                 <SlideUp offset="-300px 0px -300px 0px">
                   <div className="animate-slideUpCubiBezier animation-delay-2">
                     <div className="flex flex-row items-center justify-center">
-                      <Link href={project.link}>
+                      <Link href={project.link} target="_blank">
                         <Image
                           src={project.image}
                           alt=""

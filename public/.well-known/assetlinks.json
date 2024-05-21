@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "tech.kargo.transporter",
-    "sha256_cert_fingerprints":
-    ["AD:8D:72:60:29:8C:2C:67:54:BE:6C:25:A1:A4:CB:D6:41:0A:7B:9E:92:5A:D6:79:AD:50:C3:6D:66:39:16:6C"]
-  }
-}]

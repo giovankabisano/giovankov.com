@@ -1,0 +1,88 @@
+{
+  data: [
+    {
+      id: "1",
+      name: "Kipas Angin"
+    },
+    {
+      id: "2",
+      name: "Pigura"
+    },
+    {
+      id: "3",
+      name: "Kulkas"
+    },
+    {
+      id: "4",
+      name: "Mobil"
+    },
+    {
+      id: "5",
+      name: "Motor"
+    },
+    {
+      id: "6",
+      name: "Monitor"
+    },
+    {
+      id: "7",
+      name: "CPU"
+    },
+    {
+      id: "8",
+      name: "Kursi"
+    },
+    {
+      id: "9",
+      name: "Meja"
+    },
+    {
+      id: "10",
+      name: "Teh"
+    },
+    {
+      id: "11",
+      name: "Kopi"
+    },
+    {
+      id: "12",
+      name: "Strawberry"
+    },
+    {
+      id: "13",
+      name: "Keju"
+    },
+    {
+      id: "14",
+      name: "Oli"
+    },
+    {
+      id: "15",
+      name: "Tanah"
+    },
+    {
+      id: "16",
+      name: "Lem"
+    },
+    {
+      id: "17",
+      name: "Bedak"
+    },
+    {
+      id: "18",
+      name: "Gunting"
+    },
+    {
+      id: "19",
+      name: "Pengharum Ruangan"
+    },
+    {
+      id: "20",
+      name: "Game PS 1: Harvest Moon Back to Nature & Naruto Shippuden"
+    },
+    {
+      id: "21",
+      name: null
+    },
+  ]
+}

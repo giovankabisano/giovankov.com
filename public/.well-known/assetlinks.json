@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.edot.finclipplayground",
+    "sha256_cert_fingerprints":
+    ["76:0D:1E:E7:16:7B:C7:5B:C5:C6:C2:DE:F2:00:47:0F:2A:CC:2C:13:C7:F9:37:23:21:32:B9:5D:F5:87:23:82"]
+  }
+}]

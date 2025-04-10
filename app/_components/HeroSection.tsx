@@ -35,7 +35,7 @@ const HeroSection = () => {
             Initiator of <span className="text-[#4c99d3] font-semibold">Peduli Lindungi</span>, recently become <a href="https://satusehat.kemkes.go.id/dashboard/" className="text-[#4c99d3] font-semibold hover:underline">Satu Sehat</a>.
           </p>
           <p className="text-lg mt-2 mb-10 md:text-2xl">
-            Currently working in <b>Kargo Technologies</b> 🚛 🚀 🌕 as <span className="font-semibold text-teal-600">Technical Lead</span>
+            Currently working in <a href="https://edot.id/" className="text-[#4c99d3] font-semibold hover:underline"><b>eDOT</b></a> 🚀 🖥️ as <span className="font-semibold text-teal-600">Engineering Manager</span>
           </p>
           <LinkScroll
             to="projects"

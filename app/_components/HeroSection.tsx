@@ -10,7 +10,7 @@ import Link from "next/link"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col animate-fadeIn animation-delay-2 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2 flex flex-row items-center text-center justify-center">
           <Image
             src="/headshot.jpg"
@@ -20,9 +20,8 @@ const HeroSection = () => {
             className="rounded-full shadow-2xl"
           />
         </div>
-        <div className="md:mt-2 md:w-4/5 gap-2">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi!</h1>
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">We&#39;re <span className="font-semibold text-teal-600">getting married!</span></h1>
+        <div className="md:mt-2 md:w-4/5">
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m <span className="font-semibold text-teal-600">Ivan!</span></h1>
           <p className="text-lg mt-4 mb-2 md:text-2xl">
             I&#39;m a{" "}
 

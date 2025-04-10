@@ -5,7 +5,8 @@ import BooksSection from "@/app/_components/BooksSection"
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Wedding of Ivan & Rosa',
+  title: 'Giovanka Bisano Putra',
+  description: 'Giovanka Bisano Portfolio | Software Engineer, Frontend & Android! | Kotlin, React Native, React JS, Next JS, Go',
   icons: {
     icon: {
       url: '/favicon.ico',

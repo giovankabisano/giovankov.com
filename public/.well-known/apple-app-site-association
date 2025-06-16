@@ -1,0 +1,24 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "ZHA66PVG34.com.pmaapp.ehashtag.dev",
+          "ZHA66PVG34.com.pmaapp.ehashtag",
+          "ZHA66PVG34.com.pmaapp.ehashtag.stg"
+        ],
+        "components": [
+          {
+            "/": "/app/*",
+            "comment": "Matches any URL with a path that starts with /app/."
+          },
+          {
+            "/": "/auth/*",
+            "comment": "Matches any URL with a path that starts with /auth/."
+          }
+        ]
+      }
+    ]
+  }
+}

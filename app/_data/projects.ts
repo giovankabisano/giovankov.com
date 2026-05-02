@@ -24,7 +24,7 @@ export const projects: Project[] = [
   {
     name: "Galaxy Buds Client for Windows & Ubuntu",
     description: "Collaborated on an open source project to create a powerful sound management software for Samsung Galaxy Buds. Available on Flathub for Linux users.",
-    image: "https://raw.githubusercontent.com/ThePBone/GalaxyBudsClient/master/screenshots/screencap.gif",
+    image: "https://raw.githubusercontent.com/timschneeb/GalaxyBudsClient/master/screenshots/app_dark.png",
     github: "https://github.com/ThePBone/GalaxyBudsClient",
     link: "https://flathub.org/apps/me.timschneeberger.GalaxyBudsClient",
     tech: ["C#", ".NET"],
